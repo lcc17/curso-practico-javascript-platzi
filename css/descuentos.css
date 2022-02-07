@@ -1,0 +1,22 @@
+body{
+    background: var(--dark);
+    margin: 0;
+    font-family: var(--open);
+    color: var(--white);
+}
+
+section {
+    width: 300px;
+    display: block;
+    align-items:center;
+    margin-top: 25px;
+    border: 2px solid turquoise;
+    border-radius: 25px;
+    padding: 15px;
+}
+form label {
+    align-items: center;
+}
+label {
+    margin-left: 15px;
+}

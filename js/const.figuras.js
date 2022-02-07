@@ -1,16 +1,12 @@
 const PI = Math.PI;
 console.log("PI es: " + PI);
 
-/** Código cuadrado */
+// Código cuadrado
 
 console.group("Cuadrado");
 const ladoCuadrado = 5;
 console.log("Los lados del cuadrado miden: " + ladoCuadrado + " cm");
 
-// calculo del perímetro de un Cuadrado
-function perimetroCuadrado() {
-    return ladoCuadrado * 4
-}
 const perimetroCuadrado = ladoCuadrado * 4;
 console.log("El perímetro cuadrado es: " + perimetroCuadrado + " cm");
 
@@ -18,7 +14,7 @@ const areaCuadrado = Math.pow(ladoCuadrado, 2);
 console.log("El área del cuadrado es: " + areaCuadrado + " cm²");
 console.groupEnd();
 
-/** Código triangulo */
+// Código triangulo
 
 console.group("Triángulo");
 const ladoLateralTriangulo1 = 6;
@@ -43,7 +39,7 @@ const areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
 console.log("El área del triangulo es de: " + areaTriangulo + " cm²");
 console.groupEnd();
 
-/** Código del circulo */
+// Código del circulo
 
 console.group("Círculo");
 const radioCirculo = 4;
